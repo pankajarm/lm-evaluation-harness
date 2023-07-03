@@ -36,9 +36,10 @@ setuptools.setup(
         "sqlitedict",
         "torch>=1.7",
         "tqdm-multiprocess",
-        "transformers>=4.1",
+        "transformers>=4.30",
         "zstandard",
-        "accelerate>=0.17.1",
+        "accelerate>=0.17.1"
+        "urllib3==1.*",
     ],
     extras_require={
         "dev": ["black", "flake8", "pre-commit", "pytest", "pytest-cov"],
