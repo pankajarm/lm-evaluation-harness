@@ -61,10 +61,12 @@ To evaluate a model hosted on the [HuggingFace Hub](https://huggingface.co/model
 
 ```bash
 python main.py \
-    --model hf-causal \
-    --model_args pretrained=EleutherAI/gpt-j-6B \
-    --tasks hellaswag \
-    --device cuda:0
+--model hf-causal \
+--model_args pretrained=psmathur/orca_mini_v2_7b \
+--tasks hellaswag \
+--device cuda:0 \
+--batch_size auto \
+--max_batch_size 256
 ```
 
 Additional arguments can be provided to the model constructor using the `--model_args` flag. Most notably, this supports the common practice of using the `revisions` feature on the Hub to store partially trained checkpoints, or to specify the datatype for running a model:
