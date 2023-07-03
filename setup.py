@@ -37,6 +37,7 @@ setuptools.setup(
         "torch>=1.7",
         "tqdm-multiprocess",
         "transformers>=4.30",
+        "tokenizers>=0.13.3",
         "zstandard",
         "accelerate>=0.17.1",
         "urllib3==1.*",
