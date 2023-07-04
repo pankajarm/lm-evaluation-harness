@@ -41,6 +41,8 @@ setuptools.setup(
         "zstandard",
         "accelerate>=0.17.1",
         "urllib3==1.*",
+        "sentencepiece==0.1.99",
+        "protobuf==3.20.0"
     ],
     extras_require={
         "dev": ["black", "flake8", "pre-commit", "pytest", "pytest-cov"],
