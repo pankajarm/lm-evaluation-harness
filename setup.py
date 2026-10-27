@@ -41,7 +41,7 @@ setuptools.setup(
         "zstandard",
         "accelerate>=0.17.1",
         "urllib3==1.*",
-        "sentencepiece==0.1.99",
+        "sentencepiece==0.2.1",
         "protobuf==3.20.0"
     ],
     extras_require={
